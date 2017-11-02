@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ali-maclachlanISMIR2017CS.aux
+The style file: plain.bst
+I couldn't open database file ISMIR2017.bib
+---line 46 of file ali-maclachlanISMIR2017CS.aux
+ : \bibdata{ISMIR2017
+ :                   }
+I'm skipping whatever remains of this command
+I found no database files---while reading file ali-maclachlanISMIR2017CS.aux
+Warning--I didn't find a database entry for "vallely_companion_2011"
+Warning--I didn't find a database entry for "williams_irish_2010"
+Warning--I didn't find a database entry for "mccullough_style_1977"
+Warning--I didn't find a database entry for "hast_music_2004"
+Warning--I didn't find a database entry for "keegan_parameters_2010"
+Warning--I didn't find a database entry for "larsen_essential_2003"
+Warning--I didn't find a database entry for "ali-maclachlan_quantifying_2013"
+Warning--I didn't find a database entry for "widholm_silver_2001"
+Warning--I didn't find a database entry for "ali-maclachlan_towards_2015"
+Warning--I didn't find a database entry for "backus_effect_1964"
+Warning--I didn't find a database entry for "coltman_effect_1971"
+Warning--I didn't find a database entry for "lee_unsupervised_2009"
+Warning--I didn't find a database entry for "li_automatic_2010"
+Warning--I didn't find a database entry for "bertin-mahieux_million_2011"
+Warning--I didn't find a database entry for "dieleman_audio-based_2011"
+Warning--I didn't find a database entry for "lidy_parallel_2016"
+Warning--I didn't find a database entry for "costa_evaluation_2017"
+Warning--I didn't find a database entry for "park_musical_2015"
+Warning--I didn't find a database entry for "han_deep_2017"
+Warning--I didn't find a database entry for "ali-maclachlan_islah_note_2016"
+Warning--I didn't find a database entry for "breathnach_folk_1996"
+Warning--I didn't find a database entry for "o_canainn_traditional_1978"
+Warning--I didn't find a database entry for "breathnach_ceol_1963"
+You've used 0 entries,
+            2118 wiz_defined-function locations,
+            520 strings with 4521 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 2 error messages)

@@ -1,0 +1,332 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  7 APR 2017 14:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**cite.sty
+(./cite.sty
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./cite.sty:60: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \let\oc@v
+              erbo\relax
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 60--61
+[] 
+ []
+
+LaTeX Info: Redefining \cite on input line 149.
+./cite.sty:174: Undefined control sequence.
+l.174 \edef\@zero@skip{\the\z
+                             @skip}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./cite.sty:174: You can't use `the character @' after \the.
+l.174 \edef\@zero@skip{\the\z@
+                              skip}
+I'm forgetting what you said and using zero instead.
+
+LaTeX Info: Redefining \nocite on input line 214.
+
+./cite.sty:250: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \providecommand\hyper@n
+                             atlinkstart[1]{}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+./cite.sty:252: Use of \@ doesn't match its definition.
+l.252 \providecommand\NAT@parse{\@f
+                                   irstofone}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 250--253
+[]
+ []
+
+
+LaTeX Warning: You have requested package `',
+               but the package provides `cite'.
+
+Package: cite 2003/11/04  v 4.01
+./cite.sty:284: Missing number, treated as zero.
+<to be read again> 
+                   b
+l.284   \mathchardef\@b
+                       igSfactor3000
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./cite.sty:284: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284   \mathchardef\@b
+                       igSfactor3000
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 284--290
+[] 
+ []
+
+./cite.sty:292: Missing $ inserted.
+<inserted text> 
+                $
+l.292 \@
+        ifundefined{@extra@b@citeb}{\def\@extra@b@citeb{}}{}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./cite.sty:292: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 \@
+        ifundefined{@extra@b@citeb}{\def\@extra@b@citeb{}}{}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 292.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 292.
+./cite.sty:293: Missing $ inserted.
+<inserted text> 
+                $
+l.293 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (154.55103pt too wide) in paragraph at lines 292--293
+[]$\OT1/cmr/m/n/10 ^^@\OML/cmm/m/it/10 ifundefined[][][]$ 
+ []
+
+
+./cite.sty:298: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \providecommand\@ne
+                         wciteauxhandle{\@auxout}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+./cite.sty:298: Missing $ inserted.
+<inserted text> 
+                $
+l.298 \providecommand\@newciteauxhandle{\@
+                                          auxout}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./cite.sty:298: Extra }, or forgotten $.
+l.298 \providecommand\@newciteauxhandle{\@auxout}
+                                                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./cite.sty:301: Missing $ inserted.
+<inserted text> 
+                $
+l.301 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (57.15868pt too wide) in paragraph at lines 298--301
+[]$\OT1/cmr/m/n/10 ^^@\OML/cmm/m/it/10 auxout$ 
+ []
+
+./cite.sty:303: Missing $ inserted.
+<inserted text> 
+                $
+l.303 \@
+        ifundefined{G@refundefinedtrue}{\let\G@refundefinedtrue\relax}{}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./cite.sty:303: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 \@
+        ifundefined{G@refundefinedtrue}{\let\G@refundefinedtrue\relax}{}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cite.sty:304: Missing $ inserted.
+<inserted text> 
+                $
+l.304 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (260.31291pt too wide) in paragraph at lines 303--304
+[]$\OT1/cmr/m/n/10 ^^@\OML/cmm/m/it/10 ifundefined[][][]$ 
+ []
+
+./cite.sty:305: Missing $ inserted.
+<inserted text> 
+                $
+l.305 \@
+        ifundefined{@safe@activesfalse}{}{}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./cite.sty:305: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.305 \@
+        ifundefined{@safe@activesfalse}{}{}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./cite.sty:308: Missing $ inserted.
+<inserted text> 
+                $
+l.308 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (479.10785pt too wide) in paragraph at lines 305--308
+[]$\OT1/cmr/m/n/10 ^^@\OML/cmm/m/it/10 ifundefined[][][]\OT1/cmr/m/n/10 ^^@\OML/cmm/m/it/10 ifundefined[][][]$ 
+ []
+
+)
+! Emergency stop.
+<*> cite.sty
+            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 45 strings out of 493089
+ 581 string characters out of 6134842
+ 53199 words of memory out of 5000000
+ 3629 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,3n,15p,96b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,203 @@
+\begin{thebibliography}{10}
+
+\bibitem{ali-maclachlan_towards_2015}
+I.~Ali-MacLachlan, M.~K{\"o}k{\"u}er, C.~Athwal, and P.~Jan{\v c}ovi{\v c}.
+\newblock Towards the identification of {Irish} traditional flute players from
+  commercial recordings.
+\newblock In {\em Proceedings of the 5th {International} {Workshop} on {Folk}
+  {Music} {Analysis}}, Paris, France, 2015.
+
+\bibitem{ali-maclachlan_quantifying_2013}
+I.~Ali-MacLachlan, M.~K{\"o}k{\"u}er, P.~Jan{\v c}ovi{\v c}, I.~Williams, and
+  C.~Athwal.
+\newblock Quantifying {{Timbral Variations}} in {{Traditional Irish Flute
+  Playing}}.
+\newblock In {\em Proceedings of the {{3rd International Workshop}} on {{Folk
+  Music Analysis}}}, {Amsterdam, Netherlands}, 2013.
+
+\bibitem{ali-maclachlan_islah_note_2016}
+I.~Ali-MacLachlan, M.~Tomczak, C.~Southall, and J.~Hockman.
+\newblock Note, cut and strike detection for traditional {{Irish}} flute
+  recordings.
+\newblock In {\em Proceedings of the 6th {{International Workshop}} on {{Folk
+  Music Analysis}}}, {Dublin, Ireland}, 2016.
+
+\bibitem{backus_effect_1964}
+J.~Backus.
+\newblock Effect of wall material on the steady-state tone quality of woodwind
+  instruments.
+\newblock {\em The Journal of the Acoustical Society of America},
+  36(10):1881--1887, 1964.
+
+\bibitem{berenzweig_large-scale_2004}
+A.~Berenzweig, B.~Logan, D.~PW Ellis, and B.~Whitman.
+\newblock A large-scale evaluation of acoustic and subjective music-similarity
+  measures.
+\newblock {\em Computer Music Journal}, 28(2):63--76, 2004.
+
+\bibitem{bertin-mahieux_million_2011}
+T.~Bertin-Mahieux, D.~Ellis, B.~Whitman, and Paul Lamere.
+\newblock The million song dataset.
+\newblock In {\em Proceedings of the 12th International Society for Music
+  Information Retrieval Conference}, 2011.
+
+\bibitem{breathnach_ceol_1963}
+B.~Breathnach.
+\newblock {\em Ceol Rince na {h{\'E}ireann} 1}.
+\newblock An Gum, Dublin, Ireland, 1963.
+
+\bibitem{breathnach_folk_1996}
+B.~Breathnach.
+\newblock {\em Folk music and dances of {{Ireland}}}.
+\newblock {Ossian}, London, 1996.
+
+\bibitem{coltman_effect_1971}
+J.W. Coltman.
+\newblock Effect of material on flute tone quality.
+\newblock {\em The Journal of the Acoustical Society of America}, 49:520, 1971.
+
+\bibitem{costa_evaluation_2017}
+Y.~Costa, L.S. Oliveira, and C.N. Silla.
+\newblock An evaluation of convolutional neural networks for music
+  classification using spectrograms.
+\newblock {\em Applied Soft Computing}, 52:28--38, 2017.
+
+\bibitem{dieleman_audio-based_2011}
+S.~Dieleman, P.~Brakel, and B.~Schrauwen.
+\newblock Audio-based music classification with a pretrained convolutional
+  network.
+\newblock In {\em Proceedings of the 12th International Society for Music
+  Information Retrieval Conference}, pages 669--674. University of Miami, 2011.
+
+\bibitem{ellis_d._uspop2002_2003}
+{Ellis, D.}, {Berenzweig, A.}, and {Whitman, B.}
+\newblock The "uspop2002" {Pop} {Music} data set, 2003.
+
+\bibitem{han_deep_2017}
+Y.~Han, J.~Kim, and K.~Lee.
+\newblock Deep convolutional neural networks for predominant instrument
+  recognition in polyphonic music.
+\newblock {\em {IEEE}/{ACM} Transactions on Audio, Speech, and Language
+  Processing}, 25(1):208--221, 2017.
+
+\bibitem{hast_music_2004}
+D.E. Hast and S.~Scott.
+\newblock {\em Music in {{Ireland}}: {{Experiencing Music}}, {{Expressing
+  Culture}}}.
+\newblock {Oxford University Press}, {Oxford, UK}, 2004.
+
+\bibitem{keegan_parameters_2010}
+N.~Keegan.
+\newblock The {{Parameters}} of {{Style}} in {{Irish Traditional Music}}.
+\newblock {\em Inbhear, Journal of Irish Music and Dance}, 1(1):63--96, 2010.
+
+\bibitem{kim_towards_2006}
+Y.E. Kim, D.S. Williamson, and S.~Pilli.
+\newblock Towards {Quantifying} the" {Album} {Effect}" in {Artist}
+  {Identification}.
+\newblock In {\em Proceedings of the 7th {International} {Conference} on
+  {Music} {Information} {Retrieval}}, pages 393--394, Victoria, Canada, 2006.
+
+\bibitem{larsen_essential_2003}
+G.~Larsen.
+\newblock {\em The essential guide to {{Irish}} flute and tin whistle}.
+\newblock {Mel Bay Publications}, Pacific, Missouri, USA, 2003.
+
+\bibitem{lee_unsupervised_2009}
+H.~Lee, P.~Pham, Y.~Largman, and A.Y. Ng.
+\newblock Unsupervised feature learning for audio classification using
+  convolutional deep belief networks.
+\newblock In {\em Proceedings of the 23rd Annual Conference on Neural
+  Information Processing Systems}, pages 1096--1104, 2009.
+
+\bibitem{li_automatic_2010}
+T.~Li, A.B. Chan, and A.~Chun.
+\newblock Automatic musical pattern feature extraction using convolutional
+  neural network.
+\newblock In {\em Proceedings of the International {MultiConference} of
+  Engineers and Computer Scientists}, 2010.
+
+\bibitem{li_music_2004}
+T.~Li and M.~Ogihara.
+\newblock Music artist style identification by semi-supervised learning from
+  both lyrics and content.
+\newblock In {\em Proceedings of the 12th annual {ACM} international conference
+  on {Multimedia}}, pages 364--367. ACM, 2004.
+
+\bibitem{lidy_parallel_2016}
+T.~Lidy and A.~Schindler.
+\newblock Parallel convolutional neural networks for music genre and mood
+  classification.
+\newblock {\em {MIREX}}, 2016.
+
+\bibitem{logan_mel_2000}
+B.~Logan.
+\newblock Mel {Frequency} {Cepstral} {Coefficients} for {Music} {Modeling}.
+\newblock In {\em Proceedings of the 1st {International} {Symposium} on {Music}
+  {Information} {Retrieval}}, Plymouth, MA, USA, 2000.
+
+\bibitem{mandel_song-level_2005}
+M.I. Mandel and D.~Ellis.
+\newblock Song-{Level} {Features} and {Support} {Vector} {Machines} for {Music}
+  {Classification}.
+\newblock In {\em Proceedings of the 6th {International} {Conference} on
+  {Music} {Information} {Retrieval}}, volume 2005, pages 594--599, London, UK,
+  2005.
+
+\bibitem{mccullough_style_1977}
+L.~E McCullough.
+\newblock Style in traditional {Irish} music.
+\newblock {\em Ethnomusicology}, 21(1):85--97, 1977.
+
+\bibitem{o_canainn_traditional_1978}
+T.~{\'O}~Canainn.
+\newblock {\em Traditional Music in Ireland}.
+\newblock Ossian, Cork, Ireland, 1978.
+
+\bibitem{pachet_improving_2004}
+F.~Pachet and J.~Aucouturier.
+\newblock Improving timbre similarity: {How} high is the sky.
+\newblock {\em Journal of negative results in speech and audio sciences},
+  1(1):1--13, 2004.
+
+\bibitem{park_musical_2015}
+T.~Park and T.~Lee.
+\newblock Musical instrument sound classification with deep convolutional
+  neural network using feature fusion approach.
+\newblock {\em {CoRR}}, abs/1512.07370, 2015.
+
+\bibitem{DBLP:journals/corr/Sussillo14}
+D.~Sussillo.
+\newblock Random walks: Training very deep nonlinear feed-forward networks with
+  smart initialization.
+\newblock {\em CoRR}, abs/1412.6558, 2014.
+
+\bibitem{tzanetakis_musical_2002}
+G.~Tzanetakis and P.~Cook.
+\newblock Musical genre classification of audio signals.
+\newblock {\em Speech and Audio Processing, IEEE transactions on},
+  10(5):293--302, 2002.
+
+\bibitem{vallely_companion_2011}
+F.~Vallely.
+\newblock {\em The Companion to Irish Traditional Music}.
+\newblock Cork University Press, Cork, Ireland, 2011.
+
+\bibitem{whitman_artist_2001}
+B.~Whitman, G.~Flake, and S.~Lawrence.
+\newblock Artist detection in music with minnowmatch.
+\newblock In {\em {IEEE} workshop on {Neural} {Networks} for {Signal}
+  {Processing}}, pages 559--568, Falmouth, Massachusetts, USA, 2001. IEEE.
+
+\bibitem{widholm_silver_2001}
+G.~Widholm, R.~Linortner, W.~Kausel, and M.~Bertsch.
+\newblock Silver, gold, platinum-and the sound of the flute.
+\newblock In {\em Proc. Int. Symposium on Musical Acoustics, Perugia}, pages
+  277--280, 2001.
+
+\bibitem{williams_irish_2010}
+S.~Williams.
+\newblock {\em Irish {{Traditional Music}}}.
+\newblock {Routledge}, Abingdon, Oxon, 2010.
+
+\end{thebibliography}

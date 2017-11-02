@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/izzy/Dropbox/Izzy Research/My Papers/ISMIR2017/latex/.texpadtmp/ISMIR2017template.aux
+The style file: plain.bst
+Database file #1: ../ISMIRtemplate.bib
+I was expecting a `,' or a `}'---line 62 of file ../ISMIRtemplate.bib
+ :   author = {Ali-MacLachlan, Islah and K{\"o}k{\"u}er, M{\"u}nevver and Jan{\v c}ovi{\v c}, Peter} 
+ :                                                                                                   and Williams, Ian and Athwal, Cham},
+I'm skipping whatever remains of this entry
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            520 strings with 4532 characters,
+and the built_in function-call counts, 1060 in all, are:
+= -- 104
+> -- 38
+< -- 1
++ -- 18
+- -- 12
+* -- 66
+:= -- 170
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 46
+empty$ -- 91
+format.name$ -- 12
+if$ -- 227
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 19
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 34
+stack$ -- 0
+substring$ -- 75
+swap$ -- 13
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 10
+warning$ -- 0
+while$ -- 11
+width$ -- 4
+write$ -- 35
+(There was 1 error message)
