@@ -212,20 +212,21 @@ We present two evaluations using the datasets presented in Section \ref{sec:data
 
 
 
-\begin{table}[t!]
-\begin{centering}
-\tablewidth=1.0\textwidth
-\begin{minipage}{0.4\textwidth}
+\begin{table*}[t!]
+%\begin{centering}
+%\tablewidth=1.0\textwidth
+\begin{minipage}{0.4\linewidth}
+\centering
 \begin{tabular}{cc|c|c|c|c|c|c|}
 \cline{3-8}
 \multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \multicolumn{6}{c|}{\textbf{Predicted Player}}                              \\ \cline{3-8} 
 \multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} \\ \hline
-\multicolumn{1}{|c|}{\multirow{6}{*}{\begin{turn}{90}\textbf{Actual Player}\end{turn}}} & \textbf{1}            & 0.9881     & 0          & 0          & 0          & 0          & 0          \\ \cline{2-8} 
-\multicolumn{1}{|c|}{}                                        & \textbf{2}            & 0          & 1.0000     & 0          & 0          & 0          & 0          \\ \cline{2-8} 
-\multicolumn{1}{|c|}{}                                        & \textbf{3}            & 0          & 0          & 1.0000     & 0          & 0.0063     & 0          \\ \cline{2-8} 
-\multicolumn{1}{|c|}{}                                        & \textbf{4}            & 0          & 0          & 0          & 1.0000     & 0.0089     & 0          \\ \cline{2-8} 
-\multicolumn{1}{|c|}{}                                        & \textbf{5}            & 0.0119     & 0          & 0          & 0          & 0.9848     & 0          \\ \cline{2-8} 
-\multicolumn{1}{|c|}{}                                        & \textbf{6}            & 0          & 0          & 0          & 0          & 0          & 1.0000     \\ \hline
+\multicolumn{1}{|c|}{\multirow{6}{*}{\begin{turn}{90}\textbf{Actual Player}\end{turn}}} & \textbf{1}            & 98.8     & 0          & 0          & 0          & 0          & 0          \\ \cline{2-8} 
+\multicolumn{1}{|c|}{}                                        & \textbf{2}            & 0          & 100    & 0          & 0          & 0          & 0          \\ \cline{2-8} 
+\multicolumn{1}{|c|}{}                                        & \textbf{3}            & 0          & 0          & 100     & 0          & 0.6     & 0          \\ \cline{2-8} 
+\multicolumn{1}{|c|}{}                                        & \textbf{4}            & 0          & 0          & 0          & 100     & 0.9     & 0          \\ \cline{2-8} 
+\multicolumn{1}{|c|}{}                                        & \textbf{5}            & 1.2     & 0          & 0          & 0          & 98.5     & 0          \\ \cline{2-8} 
+\multicolumn{1}{|c|}{}                                        & \textbf{6}            & 0          & 0          & 0          & 0          & 0          & 100     \\ \hline
 \end{tabular}
 
 \caption{Evaluation 1 Confusion Matrix showing 6 individual players}
@@ -237,26 +238,26 @@ We present two evaluations using the datasets presented in Section \ref{sec:data
 
 
 
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.6\linewidth}
 \begin{tabular}{cc|c|c|c|c|c|c|c|}
 \cline{3-9}
 \multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \multicolumn{7}{c|}{\textbf{Predicted Player}}                                               \\ \cline{3-9} 
-\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{Other} \\ \hline
-\multicolumn{1}{|c|}{\multirow{7}{*}{\begin{turn}{90}\textbf{Actual Player}\end{turn}}} & \textbf{1}            & 0.9600     & 0.0076     & 0          & 0.0172     & 0          & 0          & 0              \\ \cline{2-9} 
-\multicolumn{1}{|c|}{}                                        & \textbf{2}            & 0.0066     & 0.9784     & 0          & 0          & 0          & 0          & 0.0083         \\ \cline{2-9} 
-\multicolumn{1}{|c|}{}                                        & \textbf{3}            & 0.083      & 0          & 0.9792     & 0          & 0.0063     & 0          & 0.0337         \\ \cline{2-9} 
-\multicolumn{1}{|c|}{}                                        & \textbf{4}            & 0          & 0          & 0          & 0.9828     & 0          & 0          & 0.0234         \\ \cline{2-9} 
-\multicolumn{1}{|c|}{}                                        & \textbf{5}            & 0.251      & 0          & 0.0208     & 0          & 0.9875     & 0          & 0.0042         \\ \cline{2-9} 
-\multicolumn{1}{|c|}{}                                        & \textbf{6}            & 0          & 0          & 0          & 0          & 0          & 1.0000     & 0.0125         \\ \cline{2-9} 
-\multicolumn{1}{|c|}{}                                        & \textbf{Other}        & 0          & 0.0140     & 0          & 0          & 0.0063     & 0          & 0.9179         \\ \hline
+\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{O} \\ \hline
+\multicolumn{1}{|c|}{\multirow{7}{*}{\begin{turn}{90}\textbf{Actual Player}\end{turn}}} & \textbf{1}            & 96     & 0.8     & 0          & 1.7     & 0          & 0          & 0              \\ \cline{2-9} 
+\multicolumn{1}{|c|}{}                                        & \textbf{2}            & 0.7     & 97.8     & 0          & 0          & 0          & 0          & 0.8         \\ \cline{2-9} 
+\multicolumn{1}{|c|}{}                                        & \textbf{3}            & 8.3      & 0          & 97.9     & 0          & 0.6     & 0          & 3.4        \\ \cline{2-9} 
+\multicolumn{1}{|c|}{}                                        & \textbf{4}            & 0          & 0          & 0          & 98.3     & 0          & 0          & 2.3         \\ \cline{2-9} 
+\multicolumn{1}{|c|}{}                                        & \textbf{5}            & 25.1      & 0          & 2.1     & 0          & 98.8     & 0          & 0.4         \\ \cline{2-9} 
+\multicolumn{1}{|c|}{}                                        & \textbf{6}            & 0          & 0          & 0          & 0          & 0          & 100     & 1.3         \\ \cline{2-9} 
+\multicolumn{1}{|c|}{}                                        & \textbf{O}        & 0          & 1.4     & 0          & 0          & 0.6     & 0          & 91.8         \\ \hline
 \end{tabular}%
 
 \caption{Evaluation 2 Confusion Matrix showing 6 individual players and 'other' class of 79 additional recordings}
 %\label{confEval2}
 
 \end{minipage}
-\end{centering}
-\end{table}
+%\end{centering}
+\end{table*}
 
 \subsection{Evaluation 2 - 6 Players and additional dataset}
 
