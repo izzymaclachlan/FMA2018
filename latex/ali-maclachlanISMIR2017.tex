@@ -173,17 +173,19 @@ The corpus of tunes shown in Table {\ref{tab:corpusTunes} was chosen to be repre
 \centering
 
 \label{tab:corpusTunes}
-\begin{tabular}{|l|c|c|c|}
+\begin{tabular}{|l|c|c|c|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{Tune Title}} & \textbf{Type} & \textbf{Scale} & \textbf{\begin{tabular}[c]{@{}c@{}}Ends\\ on\end{tabular}} \\ \hline
-Maids of Mount Cisco                      & Reel          & G              & Ray                                                         \\ \hline
-The Banshee                               & Reel          & G              & Soh                                                         \\ \hline
-Cooley's Reel                             & Reel          & G              & Lah                                                         \\ \hline
-Banish Misfortune                         & Jig           & G              & Doh                                                         \\ \hline
-Morrison's Jig                            & Jig           & D              & Ray                                                         \\ \hline
-The Home Ruler                            & Hornpipe      & D              & Doh                                                         \\ \hline
+\multicolumn{1}{|c|}{\textbf{No.}} & \textbf{Tune Title}& \textbf{Type} & \textbf{Scale} & \textbf{\begin{tabular}[c]{@{}c@{}}Ends\\ on\end{tabular}} \\ \hline
+1&Maids of Mount Cisco                      & Reel          & G              & Ray                                                         \\ \hline
+2&The Banshee                               & Reel          & G              & Soh                                                         \\ \hline
+3&Cooley's Reel                             & Reel          & G              & Lah                                                         \\ \hline
+4&Banish Misfortune                         & Jig           & G              & Doh                                                         \\ \hline
+5&Morrison's Jig                            & Jig           & D              & Ray                                                         \\ \hline
+6&The Home Ruler                            & Hornpipe      & D              & Doh                                                         \\ \hline
+7&Players choice 1                            & ?      & ?              & ?                                                         \\ \hline
+8&Players choice 2                            & ?      & ?              & ? \\ \hline
 \end{tabular}
-\caption{Corpus recorded by all players detailing tune type, scale and ending note}
+\caption{Corpus recorded by all players detailing tune type, scale and ending note. \carl{added numbers so correspond to results and wild tracks}}
 \end{table}
 
 
@@ -200,73 +202,132 @@ The recordings were collected as 16-bit/44.1kHz WAV files using a Thomann MM-1 m
 
 
 
-\section{Results}\label{sec:results}
+\section{Results and Discussion}\label{sec:results}
 
-We present two evaluations using the datasets presented in Section \ref{sec:dataset}. In the first, we analyse 168 recordings of 6 individual flute players and present results of 1 vs all (2 classes) and 1-6 vs all (6 classes). In the second evaluation we also include an additional 79 recordings of 9 different players, presenting the results of 1 vs all (2 classes) and 1-7 vs all (7 classes).
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{figs/PlayerPDF}
+\caption{Two class results per player and the mean across players.}
+\label{PlayerGraph}
+\end{figure}
+
+\subsection{Two Class}
+
+Figure \ref{PlayerGraph} presents the two class results for each player and the mean across players. As expected, a higher mean player accuracy is achieved in the 6 player evaluation than the 6 player and other evaluation. Player 4 achieves the lowest classification accuracy where as player 5 achieves the highest \carl{do we know why this is? Izzy? would be good discussion here if so...}.
+
+A confusion matrix for the mean player results is presented in table \ref{2classconf}. For the 6 player evaluation the errors are roughly evenly distributed however, in the 6 player and other evaluation there is a larger number of the player tracks classified as other. \carl{again discuss why this is?}.
+
+Table \ref{subgroups} presents the number of tracks that were correctly classified as the players tracks (upper left boxes in Table \ref{2classconf}) in each of the subgroups. \carl{again discuss what and why}.
+
+\begin{table}[h!]
+    
+    \begin{minipage}{.5\linewidth}
+      \centering
+
+\begin{tabular}{cc|c|c|}
+
+\cline{3-4}
+\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{\textbf{Pred}}                              \\ \cline{3-4} 
+\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \textbf{P} & \textbf{O}  \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\begin{turn}{90}\textbf{GT}\end{turn}}} & \textbf{P}            & 99.7     & 0.6            \\ \cline{2-4} 
+\multicolumn{1}{|c|}{}                                        & \textbf{O}            & 0.3          & 99.4            \\ \hline
+\end{tabular}
+    \end{minipage}%across players
+    \begin{minipage}{.5\linewidth}
+      \centering
+\begin{tabular}{cc|c|c|}
+
+\cline{3-4}
+\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{\textbf{Pred}}                              \\ \cline{3-4} 
+\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \textbf{P} & \textbf{O}  \\ \hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\begin{turn}{90}\textbf{GT}\end{turn}}} & \textbf{P}            & 97.5    & 0.8            \\ \cline{2-4} 
+\multicolumn{1}{|c|}{}                                        & \textbf{O}            & 2.5          & 99.2            \\ \hline
+\end{tabular}
+    \end{minipage} 
+ \caption{Two class confusion matrices where pred is the predicted class, GT is the ground truth class, P is the player class and O the other class. 6 player evaluation is on the left and the 6 player and other evaluation is on the right.}
+ \label{2classconf}   
+\end{table}
 
 
+\begin{table}[h!]
 
-\subsection{Evaluation 1 - 6 Players}
+    \begin{minipage}{.5\linewidth}
+      \centering
+across players
+\begin{tabular}{|c|c|c|}
+\cline{2-3}
+\multicolumn{1}{l|}{}&\textbf{1} & \textbf{2}  \\ \hline
+\textbf{M}            & 99.7     & 100            \\ \cline{1-3} 
+\textbf{N}            & 100          & 100            \\ \hline
+\end{tabular}d Player
+    \end{minipage}%
+    \begin{minipage}{.5\linewidth}
+      \centering
+\begin{tabular}{|c|c|c|}
+\cline{2-3}
+\multicolumn{1}{l|}{}&\textbf{1} & \textbf{2}  \\ \hline
+\textbf{M}            & 95.0   & 96.7            \\ \cline{1-3} 
+\textbf{N}            & 97.3          & 98.8            \\ \hline
+\end{tabular}across players
+    \end{minipage} 
+        \caption{Two class subgroup accuracies where M is metronome, N is no metronome, 1 is take 1 and 2 is take 2. 6 player evaluation is on the left and the 6 player and other evaluation is on the right.}
+        \label{subgroups}
+\end{table}
+%
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{figs/TrackPDF}
+\caption{Two class results per track and the mean for the different track types.}
+\label{TrackGraph}
+\end{figure}
 
-\izzy{Can't make confusion matrixes look right in column at present}
+Figure \ref{TrackGraph} presents the percentage of the player tracks correctly classified as the players (same as Table \ref{subgroups}) for each of the tracks. Also presented are the mean accuracies for the track types. \carl{again what and why?}. 
+
+\subsection{Individual Class}
+
+\begin{table*}[h!]
+
+    \begin{minipage}{.5\linewidth}
+      \centering
 
 
-
-\begin{table*}[t!]
-%\begin{centering}
-%\tablewidth=1.0\textwidth
-\begin{minipage}{0.4\linewidth}
-\centering
 \begin{tabular}{cc|c|c|c|c|c|c|}
 \cline{3-8}
-\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \multicolumn{6}{c|}{\textbf{Predicted Player}}                              \\ \cline{3-8} 
+\multicolumn{1}{l}{}                                     & \multicolumn{1}{l|}{} & \multicolumn{6}{c|}{\textbf{Prediction}}                              \\ \cline{3-8} 
 \multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} \\ \hline
-\multicolumn{1}{|c|}{\multirow{6}{*}{\begin{turn}{90}\textbf{Actual Player}\end{turn}}} & \textbf{1}            & 98.8     & 0          & 0          & 0          & 0          & 0          \\ \cline{2-8} 
-\multicolumn{1}{|c|}{}                                        & \textbf{2}            & 0          & 100    & 0          & 0          & 0          & 0          \\ \cline{2-8} 
+\multicolumn{1}{|c|}{\multirow{6}{*}{\begin{turn}{90}\textbf{Ground Truth}\end{turn}}} & \textbf{1}            & 98.8     & 0          & 0          & 0          & 0          & 0          \\ \cline{2-8} 
+\multicolumn{1}{|c|}{}                                        & \textbf{2}            & 0          & 
+100    & 0          & 0          & 0          & 0          \\ \cline{2-8} 
 \multicolumn{1}{|c|}{}                                        & \textbf{3}            & 0          & 0          & 100     & 0          & 0.6     & 0          \\ \cline{2-8} 
 \multicolumn{1}{|c|}{}                                        & \textbf{4}            & 0          & 0          & 0          & 100     & 0.9     & 0          \\ \cline{2-8} 
 \multicolumn{1}{|c|}{}                                        & \textbf{5}            & 1.2     & 0          & 0          & 0          & 98.5     & 0          \\ \cline{2-8} 
-\multicolumn{1}{|c|}{}                                        & \textbf{6}            & 0          & 0          & 0          & 0          & 0          & 100     \\ \hline
+\multicolumn{1}{|c|}{}                                   & \textbf{6}            & 0          & 0          & 0          & 0          & 0          & 100     \\ \hline
 \end{tabular}
-
-\caption{Evaluation 1 Confusion Matrix showing 6 individual players}
-%\label{confEval1}
-
-\end{minipage}%
-
-\hfill
-
-
-
-\begin{minipage}{0.6\linewidth}
+    \end{minipage}%
+    \begin{minipage}{.5\linewidth}
+      \centering
 \begin{tabular}{cc|c|c|c|c|c|c|c|}
 \cline{3-9}
-\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \multicolumn{7}{c|}{\textbf{Predicted Player}}                                               \\ \cline{3-9} 
+\multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \multicolumn{7}{c|}{\textbf{Prediction}}                                               \\ \cline{3-9}
 \multicolumn{1}{l}{}                                          & \multicolumn{1}{l|}{} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{O} \\ \hline
-\multicolumn{1}{|c|}{\multirow{7}{*}{\begin{turn}{90}\textbf{Actual Player}\end{turn}}} & \textbf{1}            & 96     & 0.8     & 0          & 1.7     & 0          & 0          & 0              \\ \cline{2-9} 
+\multicolumn{1}{|c|}{\multirow{7}{*}{\begin{turn}{90}\textbf{Ground Truth}\end{turn}}} & \textbf{1}            & 96     & 0.8     & 0          & 1.7           
+     & 0          & 0          & 0              \\ \cline{2-9} 
 \multicolumn{1}{|c|}{}                                        & \textbf{2}            & 0.7     & 97.8     & 0          & 0          & 0          & 0          & 0.8         \\ \cline{2-9} 
-\multicolumn{1}{|c|}{}                                        & \textbf{3}            & 8.3      & 0          & 97.9     & 0          & 0.6     & 0          & 3.4        \\ \cline{2-9} 
+\multicolumn{1}{|c|}{}                                        & \textbf{3}            & 0.8      & 0          & 97.9     & 0          & 0.6     & 0          & 3.4        \\ \cline{2-9} 
 \multicolumn{1}{|c|}{}                                        & \textbf{4}            & 0          & 0          & 0          & 98.3     & 0          & 0          & 2.3         \\ \cline{2-9} 
-\multicolumn{1}{|c|}{}                                        & \textbf{5}            & 25.1      & 0          & 2.1     & 0          & 98.8     & 0          & 0.4         \\ \cline{2-9} 
+\multicolumn{1}{|c|}{}                                        & \textbf{5}            & 2.5      & 0          & 2.1     & 0          & 98.8     & 0          & 0.4         \\ \cline{2-9} 
 \multicolumn{1}{|c|}{}                                        & \textbf{6}            & 0          & 0          & 0          & 0          & 0          & 100     & 1.3         \\ \cline{2-9} 
 \multicolumn{1}{|c|}{}                                        & \textbf{O}        & 0          & 1.4     & 0          & 0          & 0.6     & 0          & 91.8         \\ \hline
 \end{tabular}%
 
-\caption{Evaluation 2 Confusion Matrix showing 6 individual players and 'other' class of 79 additional recordings}
-%\label{confEval2}
-
-\end{minipage}
-%\end{centering}
+    \end{minipage} 
+    \caption{Individual class confusion matrices. 6 player evaluation is on the left and the 6 player and other evaluation is on the right.}
+      \label{indconfs}  
 \end{table*}
 
-\subsection{Evaluation 2 - 6 Players and additional dataset}
-
-\subsection{Sub3}
+Table \ref{indconfs} presents confusion matrices for the individual classification evaluation. The mean accuracies achieved are 99.6\% and 96.6\% for the 6 players and 6 players and others evaluations respectively. \carl{again what and why?}.
 
 
 
-
-
+/carl{Notes: 6 player + 6 player and other need better names!}
 
 \section{Conclusions and Future Work} \label{sec:conclusions}
 %In this paper we present a note, cut and strike detection method for traditional Irish flute recordings. Our chosen approach to this problem is that of inter-onset segment classification using feed-forward neural networks. To evaluate the effectiveness of this approach we first conducted an evaluation of various onset detection algorithms on our dataset with the hope of using this method as a first step in the feature extraction. 
